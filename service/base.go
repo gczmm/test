@@ -9,7 +9,7 @@ func GetMemberID(ctx context.Context)  {
 	fmt.Println("GetMemberID")
 }
 
-func GetMember(ctx context.Context)  {
+func GetMember(ctx context.Context, memberID int64)  {
 	fmt.Println("GetMember")
 }
 
