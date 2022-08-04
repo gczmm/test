@@ -12,3 +12,7 @@ func producer(ctx context.Context)  {
 func TestSyncSend(ctx context.Context, msg []byte)  {
 	fmt.Println("TestSyncSend")
 }
+
+func TestASyncSend(ctx context.Context, msg []byte)  {
+	fmt.Println("TestASyncSend")
+}
