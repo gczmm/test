@@ -9,10 +9,18 @@ func producer(ctx context.Context)  {
 	fmt.Println("producer")
 }
 
+func SyncSend(ctx context.Context, msg []byte)  {
+	fmt.Println("SyncSend")
+}
+
+func AsyncSend(ctx context.Context, msg []byte)  {
+	fmt.Println("asyncSend")
+}
+
 func TestSyncSend(ctx context.Context, msg []byte)  {
 	fmt.Println("TestSyncSend")
 }
 
-func TestASyncSend(ctx context.Context, msg []byte)  {
+func TestASyncSend(ctx context.Context, msg []byte) {
 	fmt.Println("TestASyncSend")
 }
