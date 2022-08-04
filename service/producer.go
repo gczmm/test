@@ -24,3 +24,11 @@ func TestSyncSend(ctx context.Context, msg []byte)  {
 func TestASyncSend(ctx context.Context, msg []byte) {
 	fmt.Println("TestASyncSend")
 }
+
+func TestSyncSend2(ctx context.Context, msg []byte)  {
+	fmt.Println("TestSyncSend2")
+}
+
+func TestASyncSend2(ctx context.Context, msg []byte) {
+	fmt.Println("TestASyncSend2")
+}
